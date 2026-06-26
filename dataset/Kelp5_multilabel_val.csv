@@ -1,0 +1,186 @@
+text,labels,PRODUCT_POSITIVE,PRODUCT_NEGATIVE,PRODUCT_NEUTRAL,PRICE_POSITIVE,PRICE_NEGATIVE,PRICE_NEUTRAL,PLACE_POSITIVE,PLACE_NEGATIVE,PLACE_NEUTRAL,PROMOTION_POSITIVE,PROMOTION_NEGATIVE,PROMOTION_NEUTRAL,OUT_OF_TOPIC,clean_text
+"Guys, ada yg hbs self payment disini terus kartu kreditnya dipake transaksi tanpa OTP Amazon dgn mata uang USD? Aku payment tgl 07 Jan 2025 malem di Uniqlo Pakuwon Jogja, tgl 08 langsung dipake transaksi tanpa OTP itu. Apes2 lbh ati2 aja krn ini kan mesinnya kan gaada yg jaga juga. Gatau udh diapa2in orang apa blm",['OUT_OF_TOPIC'],0,0,0,0,0,0,0,0,0,0,0,0,1,guys ada yg hbs self payment disini terus kartu kreditnya dipake transaksi tanpa otp amazon dgn mata uang usd aku payment tgl 07 jan 2025 malem di uniqlo pakuwon jogja tgl 08 langsung dipake transaksi tanpa otp itu apes2 lbh ati2 aja krn ini kan mesinnya kan gaada yg jaga juga gatau udh diapa2in orang apa blm
+Salah satu store terbesar uniqlo di Jogja,['PLACE_POSITIVE'],0,0,0,0,0,0,1,0,0,0,0,0,0,salah satu store terbesar uniqlo di jogja
+"- Jenis Pakaian terbuat dr bahan kualitas bagus
+- Harga standard dg kualitas yg baik
+-  Metode pembayaran mudah & kadang ada promo/ potongan harga lewat aplikasi
+- Tersedia berbagai macam pakaian baik casual, kerja, anak, dll","['PRODUCT_POSITIVE', 'PRICE_POSITIVE', 'PROMOTION_POSITIVE']",1,0,0,1,0,0,0,0,0,1,0,0,0,jenis pakaian terbuat dr bahan kualitas bagus harga standard dg kualitas yg baik metode pembayaran mudah kadang ada promo potongan harga lewat aplikasi tersedia berbagai macam pakaian baik casual kerja anak dll
+"Pegawai yang namanya sofiana tolong di asah lagi attitude sama mulutnya deh, atau minimal gausah dikasir deh dia. Suruh nyapu aja",['OUT_OF_TOPIC'],0,0,0,0,0,0,0,0,0,0,0,0,1,pegawai yang namanya sofiana tolong di asah lagi attitude sama mulutnya deh atau minimal gausah dikasir deh dia suruh nyapu aja
+"Pas payment nanya bisa qris atau enggak jawabnya enggak, jadi ambil tunai dlu dengan catatan nnti langsung ke kasir gak perlu antri. Pas mau bayar terus langsung ke kasir, mbaknya melas ngomong gak ngeliat saya sambil bilang “antri dlu antri dlu”. akhirnya saya antri. Mohon konsistensi terkait informasi yang diberikan ya.",['OUT_OF_TOPIC'],0,0,0,0,0,0,0,0,0,0,0,0,1,pas payment nanya bisa qris atau enggak jawabnya enggak jadi ambil tunai dlu dengan catatan nnti langsung ke kasir gak perlu antri pas mau bayar terus langsung ke kasir mbaknya melas ngomong gak ngeliat saya sambil bilang antri dlu antri dlu akhirnya saya antri mohon konsistensi terkait informasi yang diberikan ya
+"Pilihan outfitnya banyak banget, bahannya juga adem banget gausah di ragukan. Kalau pengen dapat diskon potongan 50 rb bisa intsall aplikasi uniqlonya tar dapat voucher.","['PRODUCT_POSITIVE', 'PROMOTION_NEGATIVE']",1,0,0,0,0,0,0,0,0,0,1,0,0,pilihan outfitnya banyak banget bahannya juga adem banget gausah di ragukan kalau pengen dapat diskon potongan 50 rb bisa intsall aplikasi uniqlonya tar dapat voucher
+"Dah ga perlu diragukan lagi produk-produk Uniqlo, segi model & bahan berkualitas, outlet Uniqlo favorit klo di Jogja, hampir setiap bulan mesti kesini dan beli, banyak sale nya juga","['PRODUCT_POSITIVE', 'OUT_OF_TOPIC', 'PROMOTION_POSITIVE']",1,0,0,0,0,0,0,0,0,1,0,0,1,dah ga perlu diragukan lagi produk produk uniqlo segi model bahan berkualitas outlet uniqlo favorit klo di jogja hampir setiap bulan mesti kesini dan beli banyak sale nya juga
+"Bintang 5, foto beda gpp",['OUT_OF_TOPIC'],0,0,0,0,0,0,0,0,0,0,0,0,1,bintang 5 foto beda gpp
+"Kualitas baju oke bgt
+Salah satu uniqlo yg terlengkap dan terbesar di jogja
+Pelayanan cepat dan ramah
+Kebersihan oke bgt","['PRODUCT_POSITIVE', 'PLACE_POSITIVE', 'OUT_OF_TOPIC']",1,0,0,0,0,0,1,0,0,0,0,0,1,kualitas baju oke bgt salah satu uniqlo yg terlengkap dan terbesar di jogja pelayanan cepat dan ramah kebersihan oke bgt
+Kurang lengkap dan kurang tag merah,"['PRODUCT_NEGATIVE', 'PROMOTION_NEGATIVE']",0,1,0,0,0,0,0,0,0,0,1,0,0,kurang lengkap dan kurang tag merah
+Komplit buat pilih aneka design fashion,['PRODUCT_POSITIVE'],1,0,0,0,0,0,0,0,0,0,0,0,0,komplit buat pilih aneka design fashion
+Tempat baju populee di hm,['OUT_OF_TOPIC'],0,0,0,0,0,0,0,0,0,0,0,0,1,tempat baju populee di hm
+"Nyari heattech buat jalan ke negara 4 musim, setelah sebelumnya beli online dan malah salah. Asli rekomended, nyaman dipakai. Meski ringan tapi tetap hangat","['PRODUCT_POSITIVE', 'OUT_OF_TOPIC']",1,0,0,0,0,0,0,0,0,0,0,0,1,nyari heattech buat jalan ke negara 4 musim setelah sebelumnya beli online dan malah salah asli rekomended nyaman dipakai meski ringan tapi tetap hangat
+"Cocok utk berbelanja produk2 fashion, selalu up to date mengikuti trend fashion terkini",['PRODUCT_POSITIVE'],1,0,0,0,0,0,0,0,0,0,0,0,0,cocok utk berbelanja produk2 fashion selalu up to date mengikuti trend fashion terkini
+Salah satu gerai baju favorit,['PLACE_POSITIVE'],0,0,0,0,0,0,1,0,0,0,0,0,0,salah satu gerai baju favorit
+"Kalau bingung mau cari baju kok kita nggk nemuin, masnya selalu nyariin bajunya, nganterin sampe ke tempat bajunya ada cui, best sih ini pelayanannya",['OUT_OF_TOPIC'],0,0,0,0,0,0,0,0,0,0,0,0,1,kalau bingung mau cari baju kok kita nggk nemuin masnya selalu nyariin bajunya nganterin sampe ke tempat bajunya ada cui best sih ini pelayanannya
+"Busana pria dan wanita, bahannya enak dipakai....pokoknya sip lah....
+Harga relatif bersaing sesuai kualitas yang diberikan.....","['PRODUCT_POSITIVE', 'PRICE_POSITIVE']",1,0,0,1,0,0,0,0,0,0,0,0,0,busana pria dan wanita bahannya enak dipakai pokoknya sip lah harga relatif bersaing sesuai kualitas yang diberikan
+Pelayanan ramah..tempatnya berada di dalam Hartono Mall..storenya besar..salah satu brand pakaian yang nyaman digunakan.. untuk kantong dikenakan charge 1k..harga bervariatif..mulai 149k..,"['PLACE_POSITIVE', 'PRICE_NEUTRAL', 'OUT_OF_TOPIC', 'PRODUCT_POSITIVE', 'PRODUCT_NEGATIVE']",1,1,0,0,0,1,1,0,0,0,0,0,1,pelayanan ramah tempatnya berada di dalam hartono mall storenya besar salah satu brand pakaian yang nyaman digunakan untuk kantong dikenakan charge 1k harga bervariatif mulai 149k
+Salah satu brand ternama yg ada di hartono mall yogya dg model yg up date dan harga bersaing,"['PRODUCT_POSITIVE', 'OUT_OF_TOPIC']",1,0,0,0,0,0,0,0,0,0,0,0,1,salah satu brand ternama yg ada di hartono mall yogya dg model yg up date dan harga bersaing
+"Lengkap, cuman harga lumayan tinggiu. Ada harga ada barang sih, bagus bahannya.","['PRODUCT_POSITIVE', 'PRICE_POSITIVE', 'PRICE_NEGATIVE']",1,0,0,1,1,0,0,0,0,0,0,0,0,lengkap cuman harga lumayan tinggiu ada harga ada barang sih bagus bahannya
+Kualitasnya oke. Ada jasa potong celana kalau kepanjangan.,"['PRODUCT_POSITIVE', 'OUT_OF_TOPIC']",1,0,0,0,0,0,0,0,0,0,0,0,1,kualitasnya oke ada jasa potong celana kalau kepanjangan
+"Tempat belanja pakaian, pakaian produk lokal kali yach. Tp bagus dan jahitannya rapih, harga relatif, yg cowok lebih mahal dr cewek. Tempatnya asyik, luas dan pilihan itemnya banyak.","['PRICE_NEUTRAL', 'PRODUCT_POSITIVE', 'PLACE_POSITIVE', 'OUT_OF_TOPIC']",1,0,0,0,0,1,1,0,0,0,0,0,1,tempat belanja pakaian pakaian produk lokal kali yach tp bagus dan jahitannya rapih harga relatif yg cowok lebih mahal dr cewek tempatnya asyik luas dan pilihan itemnya banyak
+"Kesini cm buat beli baju anak, lucu2 banget..",['PRODUCT_POSITIVE'],1,0,0,0,0,0,0,0,0,0,0,0,0,kesini cm buat beli baju anak lucu2 banget
+Yg penting apk peduli lindungi,['OUT_OF_TOPIC'],0,0,0,0,0,0,0,0,0,0,0,0,1,yg penting apk peduli lindungi
+"Ya uniqlo, salah satu clothing store dengan beragam size dan pilihan warna. Untuk design berubah2 tergantung season.","['PRODUCT_POSITIVE', 'PRODUCT_NEUTRAL']",1,0,1,0,0,0,0,0,0,0,0,0,0,ya uniqlo salah satu clothing store dengan beragam size dan pilihan warna untuk design berubah2 tergantung season
+Gila antri panjang banget mau bayar,['PLACE_NEGATIVE'],0,0,0,0,0,0,0,1,0,0,0,0,0,gila antri panjang banget mau bayar
+"UNIQLO Yogya lumayan luas , banyak pilihan . Klu disolo kecil","['PLACE_POSITIVE', 'PRODUCT_POSITIVE', 'OUT_OF_TOPIC']",1,0,0,0,0,0,1,0,0,0,0,0,1,uniqlo yogya lumayan luas banyak pilihan klu disolo kecil
+Store uniqlo yang cukup komplit,['PRODUCT_POSITIVE'],1,0,0,0,0,0,0,0,0,0,0,0,0,store uniqlo yang cukup komplit
+Belanja disini bisa dapat Potongan 25rb,['PROMOTION_POSITIVE'],0,0,0,0,0,0,0,0,0,1,0,0,0,belanja disini bisa dapat potongan 25rb
+Koleksi lengkap. tempat luas. Lantai dua kalau ngga salah.,"['PRODUCT_POSITIVE', 'PRICE_POSITIVE', 'OUT_OF_TOPIC']",1,0,0,1,0,0,0,0,0,0,0,0,1,koleksi lengkap tempat luas lantai dua kalau ngga salah
+Salah satu tempat belanja yg patut di kunjungi ke mall yg memiliki... recommended,['OUT_OF_TOPIC'],0,0,0,0,0,0,0,0,0,0,0,0,1,salah satu tempat belanja yg patut di kunjungi ke mall yg memiliki recommended
+"Uniqlo Hartono Mall tempat nya luas , tapi memang antri di kasir agak lama . Jadi harap bersabar kalau ps weekend dan jam menuju makan siang kesini . Sukses terus uniqlo. Lokasi dekat Matahari . Harga start 79.000 kalau pas lg ada discount.","['PLACE_POSITIVE', 'OUT_OF_TOPIC', 'PROMOTION_POSITIVE']",0,0,0,0,0,0,1,0,0,1,0,0,1,uniqlo hartono mall tempat nya luas tapi memang antri di kasir agak lama jadi harap bersabar kalau ps weekend dan jam menuju makan siang kesini sukses terus uniqlo lokasi dekat matahari harga start 79 000 kalau pas lg ada discount
+"Tempatnya luas ada, pakaian cowok, cewek,remaja,anak2 untuk ukuran mulai dr s,m, L, XL, XXI dll","['PRODUCT_NEUTRAL', 'PLACE_POSITIVE']",0,0,1,0,0,0,1,0,0,0,0,0,0,tempatnya luas ada pakaian cowok cewek remaja anak2 untuk ukuran mulai dr s m l xl xxi dll
+"Tampatnya rame, lg ada banyak edisi baru juga","['PRODUCT_POSITIVE', 'PLACE_NEUTRAL']",1,0,0,0,0,0,0,0,1,0,0,0,0,tampatnya rame lg ada banyak edisi baru juga
+"Lagi banyak diskon, tapi masih banyak juga sih yang harganya gak masuk akal
+Ada harga ada rupa sih yaa","['PROMOTION_POSITIVE', 'PRICE_NEUTRAL', 'PRICE_NEGATIVE']",0,0,0,0,1,1,0,0,0,1,0,0,0,lagi banyak diskon tapi masih banyak juga sih yang harganya gak masuk akal ada harga ada rupa sih yaa
+"Tempat beli baju yang up to date. Tidak terlalu mahal tetapi juga bukan murahan. Bahannya enak dipakai, tidak bikin gerah.","['PRODUCT_POSITIVE', 'PRICE_POSITIVE']",1,0,0,1,0,0,0,0,0,0,0,0,0,tempat beli baju yang up to date tidak terlalu mahal tetapi juga bukan murahan bahannya enak dipakai tidak bikin gerah
+"Tempatnya terang, luas, dan bersih.
+Tertata rapi meskipun ada protokol COVID-19.",['PLACE_POSITIVE'],0,0,0,0,0,0,1,0,0,0,0,0,0,tempatnya terang luas dan bersih tertata rapi meskipun ada protokol covid 19
+"menarik, nyaman, produk berkwalitas, dan bisa jalan²","['PLACE_POSITIVE', 'PRODUCT_POSITIVE']",1,0,0,0,0,0,1,0,0,0,0,0,0,menarik nyaman produk berkwalitas dan bisa jalan
+Sukkaaa....modelnya simple dan bahannya lembut²....like it,['PRODUCT_POSITIVE'],1,0,0,0,0,0,0,0,0,0,0,0,0,sukkaaa modelnya simple dan bahannya lembut like it
+Palingg jatuh cinta sama ini,['OUT_OF_TOPIC'],0,0,0,0,0,0,0,0,0,0,0,0,1,palingg jatuh cinta sama ini
+"protokol kesehatan dterapkan di pintu masuk, lebih baik lg jika jumlah org /pengunjung didalam dbatasi, sering terjadi antrian diruang fitting jdi malas kalo fitting dsini. koleksinya drubah2 posisinyajdi kadang membingungkan","['PLACE_NEGATIVE', 'OUT_OF_TOPIC']",0,0,0,0,0,0,0,1,0,0,0,0,1,protokol kesehatan dterapkan di pintu masuk lebih baik lg jika jumlah org pengunjung didalam dbatasi sering terjadi antrian diruang fitting jdi malas kalo fitting dsini koleksinya drubah2 posisinyajdi kadang membingungkan
+"Tempat cari baju dengan konsep simpel dan elegan, bahannya enak dan dingin",['PRODUCT_POSITIVE'],1,0,0,0,0,0,0,0,0,0,0,0,0,tempat cari baju dengan konsep simpel dan elegan bahannya enak dan dingin
+Yang mau fashion silahkan belanja,['OUT_OF_TOPIC'],0,0,0,0,0,0,0,0,0,0,0,0,1,yang mau fashion silahkan belanja
+Oke promonya model juga terbaru.,"['PRODUCT_POSITIVE', 'PROMOTION_POSITIVE']",1,0,0,0,0,0,0,0,0,1,0,0,0,oke promonya model juga terbaru
+favorit banget. kalau ada rejeki lebih pasti kesini,['OUT_OF_TOPIC'],0,0,0,0,0,0,0,0,0,0,0,0,1,favorit banget kalau ada rejeki lebih pasti kesini
+"Tempatnya luas, bersih, nyaman. Produknya lengkap seperti yang di web","['PLACE_POSITIVE', 'PRODUCT_POSITIVE']",1,0,0,0,0,0,1,0,0,0,0,0,0,tempatnya luas bersih nyaman produknya lengkap seperti yang di web
+"Komplit bgt jualan bajunya, yg unik bahan dan modelnya gak biasa",['PRODUCT_POSITIVE'],1,0,0,0,0,0,0,0,0,0,0,0,0,komplit bgt jualan bajunya yg unik bahan dan modelnya gak biasa
+"Baju nya bagus* pilihanya tapi sayang saya belum bisa memveli baju nya,
+Bissmillahh smoga suatu saat aku bisa memborong di uniqlo",[],0,0,0,0,0,0,0,0,0,0,0,0,0,baju nya bagus pilihanya tapi sayang saya belum bisa memveli baju nya bissmillahh smoga suatu saat aku bisa memborong di uniqlo
+"Toko pakaian yg pilihannya banyak, ukuran enak dipakai, bahan bagus dan harga masih terjangkau.","['PRODUCT_POSITIVE', 'PRICE_POSITIVE']",1,0,0,1,0,0,0,0,0,0,0,0,0,toko pakaian yg pilihannya banyak ukuran enak dipakai bahan bagus dan harga masih terjangkau
+"Storenya gede.
+Kalau masuk di cek suhu dulu dan disuruh buat pakai hand sanitizer dulu.
+Harga agak mahal tapi kualitas memang oke banget sih.","['PLACE_POSITIVE', 'PRICE_POSITIVE', 'OUT_OF_TOPIC']",0,0,0,1,0,0,1,0,0,0,0,0,1,storenya gede kalau masuk di cek suhu dulu dan disuruh buat pakai hand sanitizer dulu harga agak mahal tapi kualitas memang oke banget sih
+"Pakaian pria disini asik
+Adem
+Pas dibadan
+Bahanya lembut banget",['PRODUCT_POSITIVE'],1,0,0,0,0,0,0,0,0,0,0,0,0,pakaian pria disini asik adem pas dibadan bahanya lembut banget
+Langganan sama merk ini karna bahannya selalu bagus,['PRODUCT_POSITIVE'],1,0,0,0,0,0,0,0,0,0,0,0,0,langganan sama merk ini karna bahannya selalu bagus
+Salah satu paporit retail di hartono mall... luas jugaa....,['PLACE_POSITIVE'],0,0,0,0,0,0,1,0,0,0,0,0,0,salah satu paporit retail di hartono mall luas jugaa
+"Cukup banyak varian dan cukup lengkap, luas","['PRODUCT_POSITIVE', 'PLACE_POSITIVE']",1,0,0,0,0,0,1,0,0,0,0,0,0,cukup banyak varian dan cukup lengkap luas
+"Uniqlo ini harga dan kualitasnya bener2 gada yg nandingi deh, bagus2 bahannya dan sesuai hargaaa. Apalagi klo sale. Suka kwkwkwkw","['PRODUCT_POSITIVE', 'PRICE_POSITIVE', 'PROMOTION_NEUTRAL']",1,0,0,1,0,0,0,0,0,0,0,1,0,uniqlo ini harga dan kualitasnya bener2 gada yg nandingi deh bagus2 bahannya dan sesuai hargaaa apalagi klo sale suka kwkwkwkw
+"Luas, banyak pilihan. Sering diskon juga","['PRODUCT_POSITIVE', 'PLACE_POSITIVE', 'PROMOTION_POSITIVE']",1,0,0,0,0,0,1,0,0,1,0,0,0,luas banyak pilihan sering diskon juga
+"Gak pernah bosen deh, fittingnya pas buat orang asia.",['PRODUCT_POSITIVE'],1,0,0,0,0,0,0,0,0,0,0,0,0,gak pernah bosen deh fittingnya pas buat orang asia
+"Bagus² semua produknya, terjangkau harganya.","['PRODUCT_POSITIVE', 'PRICE_POSITIVE']",1,0,0,1,0,0,0,0,0,0,0,0,0,bagus semua produknya terjangkau harganya
+"Bagus bagus, tapi mahal, jarang diskon gede","['PRODUCT_POSITIVE', 'PRICE_NEGATIVE', 'PROMOTION_NEGATIVE']",1,0,0,0,1,0,0,0,0,0,1,0,0,bagus bagus tapi mahal jarang diskon gede
+Sukaaaaaaa banget ....tempat luas...nyaman...kualitas produk2 kg ok2 smua ...buat harian n ngantor...cihuuyyyy dech....,"['PLACE_POSITIVE', 'PRODUCT_POSITIVE']",1,0,0,0,0,0,1,0,0,0,0,0,0,sukaaaaaaa banget tempat luas nyaman kualitas produk2 kg ok2 smua buat harian n ngantor cihuuyyyy dech
+"Pelayananya ramahh euy, seneng bnyk discount","['OUT_OF_TOPIC', 'PROMOTION_POSITIVE']",0,0,0,0,0,0,0,0,0,1,0,0,1,pelayananya ramahh euy seneng bnyk discount
+Biasa saja. Seperti UNIQLO pada umumnya,['PLACE_NEUTRAL'],0,0,0,0,0,0,0,0,1,0,0,0,0,biasa saja seperti uniqlo pada umumnya
+Lengkap pilihan mode dan harga kompetitif,"['PRICE_POSITIVE', 'PRODUCT_POSITIVE']",1,0,0,1,0,0,0,0,0,0,0,0,0,lengkap pilihan mode dan harga kompetitif
+"Kualitas bajunya bagus, modelnya up to date",['PRODUCT_POSITIVE'],1,0,0,0,0,0,0,0,0,0,0,0,0,kualitas bajunya bagus modelnya up to date
+The best place buat yang suka baju2 simple sehari2. Bahannya nyaman dan afoordable bgt,"['PRODUCT_POSITIVE', 'PRICE_POSITIVE']",1,0,0,1,0,0,0,0,0,0,0,0,0,the best place buat yang suka baju2 simple sehari2 bahannya nyaman dan afoordable bgt
+Buka dengan pelaksanaan protokol kesehatan yang baik. Terdapat pengecekan suhu dan hand sanitizer,['OUT_OF_TOPIC'],0,0,0,0,0,0,0,0,0,0,0,0,1,buka dengan pelaksanaan protokol kesehatan yang baik terdapat pengecekan suhu dan hand sanitizer
+Bajunya bagus2 dompet saya yang ga bagus,['PRODUCT_POSITIVE'],1,0,0,0,0,0,0,0,0,0,0,0,0,bajunya bagus2 dompet saya yang ga bagus
+"Menjual pakaian casual, harga cukup pricey","['PRODUCT_NEUTRAL', 'PRICE_NEGATIVE']",0,0,1,0,1,0,0,0,0,0,0,0,0,menjual pakaian casual harga cukup pricey
+"Tempatnya luas, tenantnya banyak, bersih ....enak buat jalan2 sama keluarga",['PLACE_POSITIVE'],0,0,0,0,0,0,1,0,0,0,0,0,0,tempatnya luas tenantnya banyak bersih enak buat jalan2 sama keluarga
+Banyak Pilihan Menarik Dari Anak sampai Dewasa,['PRODUCT_POSITIVE'],1,0,0,0,0,0,0,0,0,0,0,0,0,banyak pilihan menarik dari anak sampai dewasa
+"Tempat cari baju wanita, pria dan anak-anak yang nyaman, tempatnya pun nyaman, mba2 ama mas2nya juga baik2...","['PRODUCT_POSITIVE', 'PLACE_POSITIVE', 'OUT_OF_TOPIC']",1,0,0,0,0,0,1,0,0,0,0,0,1,tempat cari baju wanita pria dan anak anak yang nyaman tempatnya pun nyaman mba2 ama mas2nya juga baik2
+"Pilihan bervariasi, lebih unggul daripada yang lain, soalnya tempatnya gedhe. Lebih unggulnya, nyari flannel sama celana chino banyak. Tempat fitting baju nyaman, karena ada penjaganya, jadi kalau barang tidak sesuai serahkan kepada penjaganya.","['PLACE_POSITIVE', 'PRODUCT_POSITIVE', 'OUT_OF_TOPIC']",1,0,0,0,0,0,1,0,0,0,0,0,1,pilihan bervariasi lebih unggul daripada yang lain soalnya tempatnya gedhe lebih unggulnya nyari flannel sama celana chino banyak tempat fitting baju nyaman karena ada penjaganya jadi kalau barang tidak sesuai serahkan kepada penjaganya
+"Harga di app gak sesuai sama yg disply
+Ditnya ke kryawannya malah jawab nya cuek","['PRICE_NEGATIVE', 'OUT_OF_TOPIC']",0,0,0,0,1,0,0,0,0,0,0,0,1,harga di app gak sesuai sama yg disply ditnya ke kryawannya malah jawab nya cuek
+Pilihannya banyak sekali sampai bikin bingung,['PRODUCT_POSITIVE'],1,0,0,0,0,0,0,0,0,0,0,0,0,pilihannya banyak sekali sampai bikin bingung
+"Tempat favorit jika sedang berkunjung me hartono mall. Produk ubiqlo ini memang favorit, tempatnya luas baranv nya banyak, sayang beberapa rak sering berantakaan jadi susah mau milih-milih","['PRODUCT_POSITIVE', 'PLACE_NEGATIVE', 'PLACE_POSITIVE']",1,0,0,0,0,0,1,1,0,0,0,0,0,tempat favorit jika sedang berkunjung me hartono mall produk ubiqlo ini memang favorit tempatnya luas baranv nya banyak sayang beberapa rak sering berantakaan jadi susah mau milih milih
+"Bagussss berkualitas, suka bangetttt harga terjangkau dg bahan yg bagus bangettt next time beli lagiiii","['PRODUCT_POSITIVE', 'PRICE_POSITIVE']",1,0,0,1,0,0,0,0,0,0,0,0,0,bagussss berkualitas suka bangetttt harga terjangkau dg bahan yg bagus bangettt next time beli lagiiii
+"Kualitas yang bagus, harga lumayan terjangkau","['PRODUCT_POSITIVE', 'PRICE_POSITIVE']",1,0,0,1,0,0,0,0,0,0,0,0,0,kualitas yang bagus harga lumayan terjangkau
+Seperti biasa antri karena ramai pengunjung,['OUT_OF_TOPIC'],0,0,0,0,0,0,0,0,0,0,0,0,1,seperti biasa antri karena ramai pengunjung
+"Terimakasih mba Dian (parfum)
+Luaaar biasa pelayanannya..
+Tetap menyala... semangka",['OUT_OF_TOPIC'],0,0,0,0,0,0,0,0,0,0,0,0,1,terimakasih mba dian parfum luaaar biasa pelayanannya tetap menyala semangka
+Langganan dr jaman nama mallnya Hartono Mall,['OUT_OF_TOPIC'],0,0,0,0,0,0,0,0,0,0,0,0,1,langganan dr jaman nama mallnya hartono mall
+"Hunting sepatu blm ada yg cocok, padahal varian banyak, hadech-hadech.",['PRODUCT_POSITIVE'],1,0,0,0,0,0,0,0,0,0,0,0,0,hunting sepatu blm ada yg cocok padahal varian banyak hadech hadech
+"Diskonya gila²an, pilihannya banyak, mantap","['PRODUCT_POSITIVE', 'PROMOTION_POSITIVE']",1,0,0,0,0,0,0,0,0,1,0,0,0,diskonya gila an pilihannya banyak mantap
+Ramai saat bertepatan long weekend,['OUT_OF_TOPIC'],0,0,0,0,0,0,0,0,0,0,0,0,1,ramai saat bertepatan long weekend
+Lumayan banyak pilihan nya.. mending kesini besok kalau mau nyari baju2 lebaran buat keluarga. Hehe,['PRODUCT_POSITIVE'],1,0,0,0,0,0,0,0,0,0,0,0,0,lumayan banyak pilihan nya mending kesini besok kalau mau nyari baju2 lebaran buat keluarga hehe
+Matahari paling lengkap diJogja. Barang-barangnya juga jauh lebih beraneka ragam dibanding matahari diMall lainnya. Tempatnya luas sekali. Sangat menyenangkan bisa berkunjung kesini.,"['PRODUCT_POSITIVE', 'PLACE_POSITIVE']",1,0,0,0,0,0,1,0,0,0,0,0,0,matahari paling lengkap dijogja barang barangnya juga jauh lebih beraneka ragam dibanding matahari dimall lainnya tempatnya luas sekali sangat menyenangkan bisa berkunjung kesini
+Besar..... tdk kalah saya rasa dengan Matahari mall di Jakarta.,['PLACE_POSITIVE'],0,0,0,0,0,0,1,0,0,0,0,0,0,besar tdk kalah saya rasa dengan matahari mall di jakarta
+Opsi belanja matahari tengah kota,['OUT_OF_TOPIC'],0,0,0,0,0,0,0,0,0,0,0,0,1,opsi belanja matahari tengah kota
+"Sedikit masukan, sebelum buka, pastikan lagi stok² baju, celana dll bersih dr debu. Sering kesini dan banyak debu nempel terutama di jeans. Sangat mengganggu.","['PRODUCT_NEGATIVE', 'PLACE_NEGATIVE']",0,1,0,0,0,0,0,1,0,0,0,0,0,sedikit masukan sebelum buka pastikan lagi stok baju celana dll bersih dr debu sering kesini dan banyak debu nempel terutama di jeans sangat mengganggu
+Tiap kesini selalu pengen beli. Wkwk. Matahari as always ada disc keknya. Tiap kesini pasti discnya selalu ada.,['PROMOTION_POSITIVE'],0,0,0,0,0,0,0,0,0,1,0,0,0,tiap kesini selalu pengen beli wkwk matahari as always ada disc keknya tiap kesini pasti discnya selalu ada
+"Bisa jadi pilihan untuk belanja, barang lebih lengkap dari matahari tempat lain sepertinya.",['PRODUCT_POSITIVE'],1,0,0,0,0,0,0,0,0,0,0,0,0,bisa jadi pilihan untuk belanja barang lebih lengkap dari matahari tempat lain sepertinya
+Sudah 3X disuruh pindah kasir ujung ujungnya tetap ngantri.. menyebalkan..,['OUT_OF_TOPIC'],0,0,0,0,0,0,0,0,0,0,0,0,1,sudah 3x disuruh pindah kasir ujung ujungnya tetap ngantri menyebalkan
+"Tempatnya luas, produknya lengkap dan selalu ada diskon dan penawaran menarik","['PLACE_POSITIVE', 'PRODUCT_POSITIVE', 'PROMOTION_POSITIVE']",1,0,0,0,0,0,1,0,0,1,0,0,0,tempatnya luas produknya lengkap dan selalu ada diskon dan penawaran menarik
+"Sangat kecewa, kerja dari pagi sampe malam",['OUT_OF_TOPIC'],0,0,0,0,0,0,0,0,0,0,0,0,1,sangat kecewa kerja dari pagi sampe malam
+Masi sama seperti kemaren koq,['OUT_OF_TOPIC'],0,0,0,0,0,0,0,0,0,0,0,0,1,masi sama seperti kemaren koq
+Selalu suka belanja disini.. pilihannya banyak dan bagus bagus,['PRODUCT_POSITIVE'],1,0,0,0,0,0,0,0,0,0,0,0,0,selalu suka belanja disini pilihannya banyak dan bagus bagus
+Hampir smua brand2 ternama ada disni yaa...pkke rekomended bgt yaaa....sayang anak2 g ikut turun karena tdr jd ditinggal dimobil....akhirnya turun ber2 sama suami,['PRODUCT_POSITIVE'],1,0,0,0,0,0,0,0,0,0,0,0,0,hampir smua brand2 ternama ada disni yaa pkke rekomended bgt yaaa sayang anak2 g ikut turun karena tdr jd ditinggal dimobil akhirnya turun ber2 sama suami
+"pelayanan ramah, promo lumayan banyak, bersih.","['OUT_OF_TOPIC', 'PROMOTION_POSITIVE', 'PLACE_POSITIVE']",0,0,0,0,0,0,1,0,0,1,0,0,1,pelayanan ramah promo lumayan banyak bersih
+"Letaknya di UG, Smoga bermanfaat infonya.",['OUT_OF_TOPIC'],0,0,0,0,0,0,0,0,0,0,0,0,1,letaknya di ug smoga bermanfaat infonya
+Enak buat jalan jalan keluarga,['OUT_OF_TOPIC'],0,0,0,0,0,0,0,0,0,0,0,0,1,enak buat jalan jalan keluarga
+"Tempat bersih, koleksi baju ok berada didalam mall pakuwon","['PLACE_POSITIVE', 'PRODUCT_POSITIVE']",1,0,0,0,0,0,1,0,0,0,0,0,0,tempat bersih koleksi baju ok berada didalam mall pakuwon
+perbanyak lagi pakaian yg size 3XL,['PRODUCT_NEGATIVE'],0,1,0,0,0,0,0,0,0,0,0,0,0,perbanyak lagi pakaian yg size 3xl
+Mencari kebutuhan sehari hari cukup disini semuanya ada,['PRODUCT_POSITIVE'],1,0,0,0,0,0,0,0,0,0,0,0,0,mencari kebutuhan sehari hari cukup disini semuanya ada
+Ada mushola yg nyaman bgt jadi gak khawatir kehilangan waktu sholat,['PLACE_POSITIVE'],0,0,0,0,0,0,1,0,0,0,0,0,0,ada mushola yg nyaman bgt jadi gak khawatir kehilangan waktu sholat
+"Tempatnya bersih, nyaman, dingin  pelayannya ramah ramah dan sabar, barangnya bagus bagus, parkirnya luas","['PLACE_POSITIVE', 'OUT_OF_TOPIC', 'PRODUCT_POSITIVE']",1,0,0,0,0,0,1,0,0,0,0,0,1,tempatnya bersih nyaman dingin pelayannya ramah ramah dan sabar barangnya bagus bagus parkirnya luas
+Cuci mata sambil Cari diskonan...,['OUT_OF_TOPIC'],0,0,0,0,0,0,0,0,0,0,0,0,1,cuci mata sambil cari diskonan
+Beli baju lebaran disini paling bagus pilihan pilihannya di banding matahari di lokasi lain,['PRODUCT_POSITIVE'],1,0,0,0,0,0,0,0,0,0,0,0,0,beli baju lebaran disini paling bagus pilihan pilihannya di banding matahari di lokasi lain
+Beli koper sendal dsini kmren..harga kopernya lg ada diskon,['PROMOTION_POSITIVE'],0,0,0,0,0,0,0,0,0,1,0,0,0,beli koper sendal dsini kmren harga kopernya lg ada diskon
+"Beli sepatu kekecilan, Alhamdulillah bisa di tuker pada hari berikutnya. Tanpa drama. Asal nota lengkap, barang masih rapi dalam kardus, dan penukarannya dengan barang yg sama, tapi beda ukurannya. Terimakasih Matahari Pakuwon Mall",['OUT_OF_TOPIC'],0,0,0,0,0,0,0,0,0,0,0,0,1,beli sepatu kekecilan alhamdulillah bisa di tuker pada hari berikutnya tanpa drama asal nota lengkap barang masih rapi dalam kardus dan penukarannya dengan barang yg sama tapi beda ukurannya terimakasih matahari pakuwon mall
+"Banyak promo, ramai juga..
+Tp pilihan bajunya tidak terlalu menarik, sepertinya blm ada model2 baru..
+Untuk sepatu bagus2 model baru2 juga semua, banyak promo nya juga gais..","['PROMOTION_POSITIVE', 'PRODUCT_NEGATIVE', 'PRODUCT_POSITIVE']",1,1,0,0,0,0,0,0,0,1,0,0,0,banyak promo ramai juga tp pilihan bajunya tidak terlalu menarik sepertinya blm ada model2 baru untuk sepatu bagus2 model baru2 juga semua banyak promo nya juga gais
+ganti nama jadi pakuwon mall,['OUT_OF_TOPIC'],0,0,0,0,0,0,0,0,0,0,0,0,1,ganti nama jadi pakuwon mall
+"Lengkap dan banyak diskon, apalagi buat membernya","['PRODUCT_POSITIVE', 'PROMOTION_POSITIVE']",1,0,0,0,0,0,0,0,0,1,0,0,0,lengkap dan banyak diskon apalagi buat membernya
+"Matahari dan diskon diskonnya sangat membantu anak2 kost sekitaran hartono untuk upgrade dan update fasion hehehe, dari promo diskon, buy 2 get 1 free dan poin poin member mantab sih, tempat luas, banyak pilihan, pegawainya sangat cekatan dan ramah","['PLACE_POSITIVE', 'PRODUCT_POSITIVE', 'OUT_OF_TOPIC']",1,0,0,0,0,0,1,0,0,0,0,0,1,matahari dan diskon diskonnya sangat membantu anak2 kost sekitaran hartono untuk upgrade dan update fasion hehehe dari promo diskon buy 2 get 1 free dan poin poin member mantab sih tempat luas banyak pilihan pegawainya sangat cekatan dan ramah
+"Sdh bbrp kali kesini, tp jujur yaaa.. Utk layanannya entah knp kok mrk2 ini kayak ngga welcome. Asal2an kalo jawab dan sering ngga dilayani. Konter baju2 cowok .. Sayang di Hartono lg ngga ada toko lain selain matahari",['OUT_OF_TOPIC'],0,0,0,0,0,0,0,0,0,0,0,0,1,sdh bbrp kali kesini tp jujur yaaa utk layanannya entah knp kok mrk2 ini kayak ngga welcome asal2an kalo jawab dan sering ngga dilayani konter baju2 cowok sayang di hartono lg ngga ada toko lain selain matahari
+Barang yang dijual bagus dan berkualitas,['PRODUCT_POSITIVE'],1,0,0,0,0,0,0,0,0,0,0,0,0,barang yang dijual bagus dan berkualitas
+"Luas dan lengkap. Saya merasa karyawan disini lebih banyak daripada outlet matahari lain, jadi mudah dicari saat butuh bantuan.","['PRODUCT_POSITIVE', 'PLACE_POSITIVE', 'OUT_OF_TOPIC']",1,0,0,0,0,0,1,0,0,0,0,0,1,luas dan lengkap saya merasa karyawan disini lebih banyak daripada outlet matahari lain jadi mudah dicari saat butuh bantuan
+"Matahari selalu dihati...belanja terasa kurang dan tak lengkap jika blm kesana. Apalagi pas ada promo, duh bikin ambil ini itu hihihi...yuks yg mw belanja baju, celana, aksesoris, komplit ya hanya di Matahari Depan Store","['PROMOTION_POSITIVE', 'PRODUCT_POSITIVE']",1,0,0,0,0,0,0,0,0,1,0,0,0,matahari selalu dihati belanja terasa kurang dan tak lengkap jika blm kesana apalagi pas ada promo duh bikin ambil ini itu hihihi yuks yg mw belanja baju celana aksesoris komplit ya hanya di matahari depan store
+Mall terbesar di Yogja ...keren,['OUT_OF_TOPIC'],0,0,0,0,0,0,0,0,0,0,0,0,1,mall terbesar di yogja keren
+"Tentu saja salah satu tujuan kalau nyari baju, sendal atau sepatu wanita.
+Kalau diskon, harga murah.
+Kualitas barang sudah tahu sendiri lah ya.
+Staf pakai masker dan helpful.
+Jangan lupa bikin member biar bisa ngumpulin poin.
+Kadang dapet kaos murah di sini.","['PROMOTION_POSITIVE', 'PRODUCT_NEUTRAL', 'OUT_OF_TOPIC', 'PRICE_POSITIVE']",0,0,1,1,0,0,0,0,0,1,0,0,1,tentu saja salah satu tujuan kalau nyari baju sendal atau sepatu wanita kalau diskon harga murah kualitas barang sudah tahu sendiri lah ya staf pakai masker dan helpful jangan lupa bikin member biar bisa ngumpulin poin kadang dapet kaos murah di sini
+As always.. tempat andalan cari baju n sepatu..   ✅,['PRODUCT_POSITIVE'],1,0,0,0,0,0,0,0,0,0,0,0,0,as always tempat andalan cari baju n sepatu
+"antrian pembayaran panjang, petugas kasir cuma satu..tidak direspon dengan penambahan petugas kasir",['OUT_OF_TOPIC'],0,0,0,0,0,0,0,0,0,0,0,0,1,antrian pembayaran panjang petugas kasir cuma satu tidak direspon dengan penambahan petugas kasir
+"Banyak promo"" menarik, cocok buat nyari baju buat lebaran","['PROMOTION_POSITIVE', 'PRODUCT_POSITIVE']",1,0,0,0,0,0,0,0,0,1,0,0,0,banyak promo menarik cocok buat nyari baju buat lebaran
+Beli baju salah warna gara2 mbk pegawainya masukin di paperbag nya. Tadinya nyoba 2x udh fix mlh mbknya ngambilin yang ada plstiknya malah salah warna. Nyesel bgt dah,['OUT_OF_TOPIC'],0,0,0,0,0,0,0,0,0,0,0,0,1,beli baju salah warna gara2 mbk pegawainya masukin di paperbag nya tadinya nyoba 2x udh fix mlh mbknya ngambilin yang ada plstiknya malah salah warna nyesel bgt dah
+"Mall'nya komplit & masjidnya bersih, luas","['PRODUCT_POSITIVE', 'PLACE_POSITIVE']",1,0,0,0,0,0,1,0,0,0,0,0,0,mall nya komplit masjidnya bersih luas
+Msh sperti matahari pada umumnya,['OUT_OF_TOPIC'],0,0,0,0,0,0,0,0,0,0,0,0,1,msh sperti matahari pada umumnya
+Tetepppp jadi andalan belibeli baju di mall nyaa horeeeee banyaak diskon,"['PRODUCT_POSITIVE', 'PROMOTION_POSITIVE']",1,0,0,0,0,0,0,0,0,1,0,0,0,tetepppp jadi andalan belibeli baju di mall nyaa horeeeee banyaak diskon
+Karena mall nya guede banget jadi banyak pilihan barangnya haha,"['PLACE_POSITIVE', 'PRODUCT_POSITIVE']",1,0,0,0,0,0,1,0,0,0,0,0,0,karena mall nya guede banget jadi banyak pilihan barangnya haha
+ada pegawai di kasir 1 yg pelayanan nya kurang bagus dalam melayani customer sehingga membuat tidak nyaman untuk berbelanja.,['OUT_OF_TOPIC'],0,0,0,0,0,0,0,0,0,0,0,0,1,ada pegawai di kasir 1 yg pelayanan nya kurang bagus dalam melayani customer sehingga membuat tidak nyaman untuk berbelanja
+Nyaman banyak pilihan harga bersahabat pakaian tuk dewasa anak2 jd satu jd gak hrs naik turun eskalator,"['PRICE_POSITIVE', 'PLACE_POSITIVE']",0,0,0,1,0,0,1,0,0,0,0,0,0,nyaman banyak pilihan harga bersahabat pakaian tuk dewasa anak2 jd satu jd gak hrs naik turun eskalator
+Beli 2 dpt 1 jd blanja gak selesai2,['PROMOTION_POSITIVE'],0,0,0,0,0,0,0,0,0,1,0,0,0,beli 2 dpt 1 jd blanja gak selesai2
+Tempatnya luas walaupun cuman 1 lantai aja.,['PLACE_POSITIVE'],0,0,0,0,0,0,1,0,0,0,0,0,0,tempatnya luas walaupun cuman 1 lantai aja
+Lumayan lah ya tapi sepi g serame matahari jcm,['PLACE_NEGATIVE'],0,0,0,0,0,0,0,1,0,0,0,0,0,lumayan lah ya tapi sepi g serame matahari jcm
+Lokasi strategis belanja nyaman untuk keluarga,['PLACE_POSITIVE'],0,0,0,0,0,0,1,0,0,0,0,0,0,lokasi strategis belanja nyaman untuk keluarga
+"Pas ada promo, pas ada yg cocok.. Akhirnya beli deh",['PROMOTION_POSITIVE'],0,0,0,0,0,0,0,0,0,1,0,0,0,pas ada promo pas ada yg cocok akhirnya beli deh
+"Dari semua matahari di jogja, matahari yg di hartomo mall barangnya paling up to date, cm tempatnya g begitu besar sihhh","['PRODUCT_POSITIVE', 'PLACE_NEUTRAL']",1,0,0,0,0,0,0,0,1,0,0,0,0,dari semua matahari di jogja matahari yg di hartomo mall barangnya paling up to date cm tempatnya g begitu besar sihhh
+Mall ramai. Yang cari gereja ada GKI dan GBI di lantai paling atas,"['PLACE_NEUTRAL', 'OUT_OF_TOPIC']",0,0,0,0,0,0,0,0,1,0,0,0,1,mall ramai yang cari gereja ada gki dan gbi di lantai paling atas
+Harganya mahal2 untuk sendal laki2 kurang lengkap,"['PRICE_NEGATIVE', 'PRODUCT_NEGATIVE']",0,1,0,0,1,0,0,0,0,0,0,0,0,harganya mahal2 untuk sendal laki2 kurang lengkap
+"Tempatnya oke,  luas,  foudcourt nyaman,",['PLACE_POSITIVE'],0,0,0,0,0,0,1,0,0,0,0,0,0,tempatnya oke luas foudcourt nyaman
+Sering diskon yg d tempat lain ga diskon,['PROMOTION_POSITIVE'],0,0,0,0,0,0,0,0,0,1,0,0,0,sering diskon yg d tempat lain ga diskon
+"penataan ruang yang cukup ciamik,kekurangan  panduan atau  petujuk jika ingin mencari sesuatu di lantai berapa, saran pasang monitor pencarian jika ingin mencari barang atau tempat makan ada di lantai berapa dan sebelah mana","['PLACE_POSITIVE', 'PLACE_NEGATIVE']",0,0,0,0,0,0,1,1,0,0,0,0,0,penataan ruang yang cukup ciamik kekurangan panduan atau petujuk jika ingin mencari sesuatu di lantai berapa saran pasang monitor pencarian jika ingin mencari barang atau tempat makan ada di lantai berapa dan sebelah mana
+Mall luas banget bener-bener jalan sehat kalo kesini tapi tidak akan terasa capek karena tempatnya asik,['PLACE_POSITIVE'],0,0,0,0,0,0,1,0,0,0,0,0,0,mall luas banget bener bener jalan sehat kalo kesini tapi tidak akan terasa capek karena tempatnya asik
+"tempatnya luas, nyaman . . .",['PLACE_POSITIVE'],0,0,0,0,0,0,1,0,0,0,0,0,0,tempatnya luas nyaman
+yahhh hbais pameran disini...tempatnya luas sekali....mantullll,['PLACE_POSITIVE'],0,0,0,0,0,0,1,0,0,0,0,0,0,yahhh hbais pameran disini tempatnya luas sekali mantullll
+"Mall yg baru di jogja
+Dan sangat nyaman untuk jalan2 dan shooping",['PLACE_POSITIVE'],0,0,0,0,0,0,1,0,0,0,0,0,0,mall yg baru di jogja dan sangat nyaman untuk jalan2 dan shooping
+Kesini kalau pas ada diskonan aja,['PROMOTION_POSITIVE'],0,0,0,0,0,0,0,0,0,1,0,0,0,kesini kalau pas ada diskonan aja
+Shopping di sini mumpung ada diskonan,['PROMOTION_POSITIVE'],0,0,0,0,0,0,0,0,0,1,0,0,0,shopping di sini mumpung ada diskonan
+"ada spot terminal ces hp,
+harga? Tau lah ya","['PLACE_POSITIVE', 'PLACE_NEUTRAL']",0,0,0,0,0,0,1,0,1,0,0,0,0,ada spot terminal ces hp harga tau lah ya
+Diskonnya tdk sama dengan matahari di tempat lainnya.,['PROMOTION_NEUTRAL'],0,0,0,0,0,0,0,0,0,0,0,1,0,diskonnya tdk sama dengan matahari di tempat lainnya
+Harga lumayan murah karena sedang banyak diskon.,"['PRICE_POSITIVE', 'PROMOTION_POSITIVE']",0,0,0,1,0,0,0,0,0,1,0,0,0,harga lumayan murah karena sedang banyak diskon
+"✓nyaman berbelanja di matahari departemen store
+✓tingkatkan kembali untuk koleksi sepatu","['PLACE_NEUTRAL', 'PRODUCT_NEGATIVE']",0,1,0,0,0,0,0,0,1,0,0,0,0,nyaman berbelanja di matahari departemen store tingkatkan kembali untuk koleksi sepatu
+"Sering banget ada promo buy 1 get 2.
+Cocok buat yg doyan nyari diskonan.
+Tapi sayangnya lebih seringnya untuk baju anak. Baju dewasanya agak jarang promo begitu","['PROMOTION_POSITIVE', 'PROMOTION_NEGATIVE']",0,0,0,0,0,0,0,0,0,1,1,0,0,sering banget ada promo buy 1 get 2 cocok buat yg doyan nyari diskonan tapi sayangnya lebih seringnya untuk baju anak baju dewasanya agak jarang promo begitu
+Matahari selalu memberikan pilihan harga yang sayang untuk dilewatkan. Hartono mall merupakan tempat yang nyaman dan sangat luas untuk berbelanja.,"['PLACE_POSITIVE', 'PRICE_POSITIVE']",0,0,0,1,0,0,1,0,0,0,0,0,0,matahari selalu memberikan pilihan harga yang sayang untuk dilewatkan hartono mall merupakan tempat yang nyaman dan sangat luas untuk berbelanja
+"Masih banyak store yang kosong
+Harganya terlalu mahal untuk kalangan menengah
+Akses antar lantai sudah mendukung dengan banyak eskalatornya
+Terimakasih","['PRICE_NEGATIVE', 'PLACE_POSITIVE']",0,0,0,0,1,0,1,0,0,0,0,0,0,masih banyak store yang kosong harganya terlalu mahal untuk kalangan menengah akses antar lantai sudah mendukung dengan banyak eskalatornya terimakasih

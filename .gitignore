@@ -1,0 +1,13 @@
+
+# Model artifacts
+ner_model_artifacts/
+*.safetensors
+*.joblib
+*.pt
+cc.id.300.vec
+cc.id.300.vec.gz
+
+# Python/macOS generated files
+__pycache__/
+*.py[cod]
+.DS_Store
