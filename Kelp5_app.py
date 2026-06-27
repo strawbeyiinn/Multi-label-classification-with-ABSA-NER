@@ -69,6 +69,11 @@ def clean_text(text: str) -> str:
 def load_multilabel_model():
     import joblib
     bundle = joblib.load(MULTILABEL_PATH)
+
+    model = bundle.get("model") if isinstance(bundle, dict) else None
+    if model is not None and not hasattr(model, "estimator") and hasattr(model, "base_estimator"):
+        model.estimator = model.base_estimator
+
     return bundle  
 
 @st.cache_resource(show_spinner="Memuat model NER (IndoBERT-CRF)...")
