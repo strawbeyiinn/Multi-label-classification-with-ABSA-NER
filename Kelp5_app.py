@@ -57,8 +57,8 @@ TAG_COLORS = {
     "B-OUT_OF_TOPIC":       "#ECEFF1","I-OUT_OF_TOPIC":       "#ECEFF1",
 }
 
-MULTILABEL_PATH = os.path.join(os.path.dirname(__file__), "best_multilabel_model.joblib")
-NER_DIR         = "ner_model_artifacts"
+MULTILABEL_PATH = os.path.join(os.path.dirname(__file__), "Kelp5_best_multilabel_model.joblib")
+NER_DIR         = "Kelp5_best_ner_model"
 MAX_LEN         = 128
 PAD_TAG_ID      = -100
 
@@ -487,7 +487,7 @@ with tab_ner:
                 except FileNotFoundError:
                     st.error(
                         f"Direktori model `{NER_DIR}/` tidak ditemukan. "
-                        "Pastikan folder `ner_model_artifacts/` ada di direktori yang sama dengan `app.py`."
+                        f"Pastikan folder `{NER_DIR}/` ada di direktori yang sama dengan `app.py`."
                     )
                 except Exception as e:
                     st.error(f"Error: {e}")
