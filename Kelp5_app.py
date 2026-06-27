@@ -357,10 +357,18 @@ with tab_multi:
                         ]).sort_values("Confidence", ascending=False)
 
                         st.dataframe(
-                            df_conf.style.format({"Confidence": "{:.3f}"})
-                                   .background_gradient(subset=["Confidence"], cmap="Blues"),
+                            df_conf,
                             use_container_width=True,
                             height=380,
+                            hide_index=True,
+                            column_config={
+                                "Confidence": st.column_config.ProgressColumn(
+                                    "Confidence",
+                                    format="%.3f",
+                                    min_value=0.0,
+                                    max_value=1.0,
+                                ),
+                            },
                         )
 
                 except FileNotFoundError:
