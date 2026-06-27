@@ -6,9 +6,6 @@ import numpy as np
 warnings.filterwarnings("ignore")
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
-# ─────────────────────────────────────────────────────────────
-# KONSTANTA
-# ─────────────────────────────────────────────────────────────
 ALL_LABELS = [
     "PRODUCT_POSITIVE","PRODUCT_NEGATIVE","PRODUCT_NEUTRAL",
     "PRICE_POSITIVE","PRICE_NEGATIVE","PRICE_NEUTRAL",
@@ -62,27 +59,18 @@ NER_DIR         = "Kelp5_best_ner_model"
 MAX_LEN         = 128
 PAD_TAG_ID      = -100
 
-# ─────────────────────────────────────────────────────────────
-# TEXT CLEANING (harus sama persis dengan notebook)
-# ─────────────────────────────────────────────────────────────
 def clean_text(text: str) -> str:
     text = str(text).lower()
     text = re.sub(r"[^a-zA-Z0-9\s]", " ", text)
     text = re.sub(r"\s+", " ", text).strip()
     return text
 
-# ─────────────────────────────────────────────────────────────
-# LOAD MULTILABEL MODEL
-# ─────────────────────────────────────────────────────────────
 @st.cache_resource(show_spinner="Memuat model multilabel...")
 def load_multilabel_model():
     import joblib
     bundle = joblib.load(MULTILABEL_PATH)
-    return bundle  # keys: model, tfidf, ft_model, mlb, best_exp, repr_used
+    return bundle  
 
-# ─────────────────────────────────────────────────────────────
-# LOAD NER MODEL
-# ─────────────────────────────────────────────────────────────
 @st.cache_resource(show_spinner="Memuat model NER (IndoBERT-CRF)...")
 def load_ner_model():
     import torch
@@ -95,7 +83,6 @@ def load_ner_model():
         subprocess.check_call([sys.executable, "-m", "pip", "install", "-q", "pytorch-crf"])
         from torchcrf import CRF
 
-    # Load checkpoint metadata
     ckpt = torch.load(
         os.path.join(NER_DIR, "crf_head.pt"),
         map_location="cpu",
@@ -106,7 +93,6 @@ def load_ner_model():
     num_tags = ckpt["num_tags"]
     max_len  = ckpt.get("max_len", MAX_LEN)
 
-    # Rebuild model architecture (sama persis dengan notebook)
     class IndoBERTCRF(nn.Module):
         def __init__(self, encoder_path, num_tags, dropout=0.2):
             super().__init__()
@@ -139,9 +125,6 @@ def load_ner_model():
 
     return model, tokenizer, tag2id, id2tag, max_len
 
-# ─────────────────────────────────────────────────────────────
-# PREDICT MULTILABEL
-# ─────────────────────────────────────────────────────────────
 def predict_multilabel(text: str, bundle: dict):
     cleaned = clean_text(text)
     model      = bundle["model"]
@@ -152,7 +135,7 @@ def predict_multilabel(text: str, bundle: dict):
 
     if repr_used == "TF-IDF":
         X = tfidf.transform([cleaned])
-    else:  # FastText
+    else:  
         tokens = cleaned.split()
         vecs   = [ft_model[t] for t in tokens if t in ft_model]
         vec    = np.mean(vecs, axis=0) if vecs else np.zeros(ft_model.vector_size)
@@ -163,25 +146,21 @@ def predict_multilabel(text: str, bundle: dict):
         pred = pred.toarray()
     pred_labels = [ALL_LABELS[i] for i, v in enumerate(pred[0]) if v == 1]
 
-    # Confidence/probability — tersedia untuk model dengan predict_proba
     proba_dict = {}
     try:
         proba = model.predict_proba(X)
         if hasattr(proba, "toarray"):
             proba = proba.toarray()
         proba_flat = np.array(proba).flatten()
-        # Pastikan panjang proba sama dengan ALL_LABELS
         if len(proba_flat) == len(ALL_LABELS):
             proba_dict = {lbl: float(proba_flat[i]) for i, lbl in enumerate(ALL_LABELS)}
     except Exception:
-        # OneVsRestClassifier dengan LinearSVC → estimasi dari decision_function
         try:
             df = model.decision_function(X)
             if hasattr(df, "toarray"):
                 df = df.toarray()
             df_flat = np.array(df).flatten()
             if len(df_flat) == len(ALL_LABELS):
-                # Sigmoid normalisasi agar interpretable sebagai confidence
                 conf = 1 / (1 + np.exp(-df_flat))
                 proba_dict = {lbl: float(conf[i]) for i, lbl in enumerate(ALL_LABELS)}
         except Exception:
@@ -189,13 +168,9 @@ def predict_multilabel(text: str, bundle: dict):
 
     return pred_labels, proba_dict
 
-# ─────────────────────────────────────────────────────────────
-# PREDICT NER
-# ─────────────────────────────────────────────────────────────
 def predict_ner(text: str, model, tokenizer, id2tag: dict, max_len: int):
     import torch
 
-    # Tokenisasi word-level sederhana (konsisten dengan Prodigy token)
     words = text.split()
 
     enc = tokenizer(
@@ -215,9 +190,8 @@ def predict_ner(text: str, model, tokenizer, id2tag: dict, max_len: int):
     token_type_ids = enc.get("token_type_ids", torch.zeros_like(input_ids))
 
     decoded = model.predict(input_ids, attention_mask, token_type_ids)
-    tag_ids = decoded[0]  # list of int (hanya posisi valid, bukan PAD)
+    tag_ids = decoded[0]  
 
-    # Mapping: ambil tag subword pertama per word
     word_tags = {}
     prev_wid  = None
     tag_ptr   = 0
@@ -236,9 +210,6 @@ def predict_ner(text: str, model, tokenizer, id2tag: dict, max_len: int):
         result.append((word, tag))
     return result
 
-# ─────────────────────────────────────────────────────────────
-# RENDER NER HIGHLIGHT
-# ─────────────────────────────────────────────────────────────
 def infer_aspect_sentiments(pred_labels, proba_dict):
     """Pilih label aspek-sentimen terbaik untuk tiap aspek dari model multilabel."""
     aspect_sentiments = {}
@@ -290,7 +261,6 @@ def render_ner_html(token_tags):
             html_parts.append(f'<span style="margin:0 2px">{word}</span>')
             i += 1
         else:
-            # Kumpulkan span B + semua I yang menyusul
             prefix, label = tag.split("-", 1)
             span_words  = [word]
             span_color  = TAG_COLORS.get(tag, ASPECT_COLORS.get(label, "#E0E0E0"))
@@ -313,9 +283,6 @@ def render_ner_html(token_tags):
             )
     return '<p style="line-height:2.4;font-size:1.05em">' + " ".join(html_parts) + "</p>"
 
-# ─────────────────────────────────────────────────────────────
-# MAIN APP
-# ─────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="ABSA Review Analyzer",
     page_icon="🔍",
@@ -334,9 +301,6 @@ tab_multi, tab_ner, tab_about = st.tabs([
     "ℹ️ Tentang Aplikasi",
 ])
 
-# ═══════════════════════════════════════
-# TAB 1 — MULTILABEL
-# ═══════════════════════════════════════
 with tab_multi:
     st.header("Prediksi Label ABSA (Review-Level)")
     st.markdown(
@@ -378,7 +342,6 @@ with tab_multi:
                                 unsafe_allow_html=True,
                             )
 
-                    # Confidence / probability
                     if proba_dict:
                         st.markdown("---")
                         st.subheader("Confidence Score per Label")
@@ -408,15 +371,11 @@ with tab_multi:
                 except Exception as e:
                     st.error(f"Error: {e}")
 
-    # Interpretasi
     with st.expander("📖 Interpretasi Label ABSA"):
         cols = st.columns(2)
         for i, (lbl, desc) in enumerate(LABEL_DESC.items()):
             cols[i % 2].markdown(f"**{lbl}**  \n{desc}")
 
-# ═══════════════════════════════════════
-# TAB 2 — NER
-# ═══════════════════════════════════════
 with tab_ner:
     st.header("Prediksi NER ABSA (Token-Level Span Extraction)")
     st.markdown(
@@ -449,12 +408,12 @@ with tab_ner:
                         aspect_sentiments = infer_aspect_sentiments(pred_labels, proba_dict)
                         token_tags = enrich_ner_tags_with_sentiment(token_tags, aspect_sentiments)
 
-                    # Highlight HTML
+                    
                     st.subheader("Visualisasi Span")
                     ner_html = render_ner_html(token_tags)
                     st.markdown(ner_html, unsafe_allow_html=True)
 
-                    # Tabel entitas
+                    
                     entities = []
                     i = 0
                     while i < len(token_tags):
@@ -492,7 +451,6 @@ with tab_ner:
                 except Exception as e:
                     st.error(f"Error: {e}")
 
-    # Legend warna
     with st.expander("🎨 Legenda Warna Span"):
         legend_items = [
             ("PRODUCT_POSITIVE", "#C8E6C9"),("PRODUCT_NEGATIVE", "#FFCDD2"),("PRODUCT_NEUTRAL", "#E3F2FD"),
@@ -507,9 +465,6 @@ with tab_ner:
                 unsafe_allow_html=True,
             )
 
-# ═══════════════════════════════════════
-# TAB 3 — ABOUT
-# ═══════════════════════════════════════
 with tab_about:
     st.header("Tentang Aplikasi")
     st.markdown("""
