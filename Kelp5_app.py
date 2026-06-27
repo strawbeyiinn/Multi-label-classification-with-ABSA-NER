@@ -76,12 +76,7 @@ def load_ner_model():
     import torch
     import torch.nn as nn
     from transformers import AutoTokenizer, AutoModel
-    try:
-        from torchcrf import CRF
-    except ImportError:
-        import subprocess, sys
-        subprocess.check_call([sys.executable, "-m", "pip", "install", "-q", "pytorch-crf"])
-        from torchcrf import CRF
+    from torchcrf import CRF
 
     ckpt = torch.load(
         os.path.join(NER_DIR, "crf_head.pt"),
