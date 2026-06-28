@@ -1,3 +1,7 @@
 anggota :
 1. Beyond Revata Hwang - 230712326
 2. Ferrincia Avril - 230712368
+
+LINK GITHUB : https://github.com/strawbeyiinn/Multi-label-classification-with-ABSA-NER
+LINK STREAMLIT : https://multilabelandnerforplacereview.streamlit.app/
+LINK VIDEO DEMO : https://drive.google.com/file/d/1K8sPsURT5AOpySXKSd6Wjq4zV1ffyQR5/view?usp=drive_link
